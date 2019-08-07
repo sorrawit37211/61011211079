@@ -1,0 +1,20 @@
+
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100"
+
+Your browser does not support the canvas element.
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "50px Red";
+
+ctx.strokeText("Profile",10,50);
+
+</script>
+
+</body>
+</html>
